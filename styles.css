@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 5px;
     overflow: hidden;
-    background-color: #333;
+    /* background-color: #333; */
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -37,7 +37,7 @@ li a{
 }
 
 li a:hover{
-    background-color: #111;
+    /* background-color: #111; */
 }
 .logocontainer{
     display: flex;
@@ -109,7 +109,8 @@ color: #fff;
     width: 100%;
 }
 .wigchat button{
-    width: 60%;
+    width: 70%;
+    padding: 0.7rem;
 }
 
 .wigcontacts{
@@ -149,6 +150,9 @@ footer{
     background-color: #530202;
     color: #fff;
 }
+.socials{
+    padding:1rem 0rem;
+}
 footer a{
     text-decoration: none;
     color: #fff;
@@ -162,16 +166,6 @@ footer i{
     padding: 0.5em;
  }
 
-
-
-
-
-
-
-
-/* @media(width >= 600 ){
-
-} */
 
 @media ( width >= 750px) {
 
@@ -258,11 +252,7 @@ button:hover{
     text-decoration: none;
     display: none;
 }
-/* .product{
-    background-color: #333;
-    color: #fff;
-    margin: 1em 0em;
-} */
+
 .wigcontainer{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -284,6 +274,11 @@ button:hover{
     width: 100%;
     text-align: center;
 }
+.wigchat button{
+    width: 100%;
+    padding: 0.7rem;
+}
+
 footer{
     margin-bottom:0;
 }
@@ -295,6 +290,9 @@ footer{
 .footercontener img{
    width: 40%;
    padding: 0.5em;
+}
+.socials{
+    padding-top: 0.8rem;
 }
 }
 
